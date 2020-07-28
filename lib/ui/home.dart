@@ -18,7 +18,7 @@ class _HomeState extends State<Home> {
     String domain = 'https://newsapi.org/v2/';
     String endPoint = 'everything';
     String query =
-        '?q=business&from=2020-06-21&sortBy=publishedAt&apiKey=8ab183ab76e1498bb09e34ab790d1c6f';
+        '?q=business&from=2020-06-24&sortBy=publishedAt&apiKey=8ab183ab76e1498bb09e34ab790d1c6f';
 
     String url = '$domain/$endPoint$query';
 
